@@ -7,6 +7,7 @@ def main():
         print("Usage: python solver.py [input_file]")
         return
     
+    
     with open(sys.argv[1], 'r') as f:
         # The first integer is the board dimension n.
         n = int(f.readline().strip())
